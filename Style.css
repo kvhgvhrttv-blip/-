@@ -1,0 +1,42 @@
+body{
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#c9f4ff;
+    font-family:Arial,sans-serif;
+    overflow:hidden;
+}
+
+#box{
+    background:white;
+    padding:40px;
+    border-radius:25px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.2);
+}
+
+h1{
+    color:#0088cc;
+}
+
+button{
+    padding:15px 35px;
+    font-size:28px;
+    border:none;
+    border-radius:15px;
+    cursor:pointer;
+    transition:.2s;
+}
+
+#yes{
+    background:#2ecc71;
+    color:white;
+    margin-right:20px;
+}
+
+#no{
+    background:#ff4d4d;
+    color:white;
+}
